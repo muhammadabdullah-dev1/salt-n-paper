@@ -175,3 +175,60 @@ nav{
     font-weight: 600;
 }
 /* ex frachies 3rd ended */
+/* village section started  */
+
+.village{
+    background-color:#0f0f0f;
+    
+    margin-top: 100px;
+    gap: 40px;
+    
+}
+.vill-h-one{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 5.2rem;
+}
+.vill-h-one > h2{
+    color: #28a745;
+}
+.vill-upper > h2{
+    font-size: 4.8rem;
+    color: #28a745;
+}
+.vill-img > img{
+    width: 90%;
+   
+    
+}
+/* .village > img{
+    width: 70px;
+    height: 100%;
+    
+} */
+.vill-para > h1{
+    font-size: 3.2rem;
+    margin-top: 100px;
+
+}
+.vill-para > p{
+    font-size: 1.8rem;
+    margin-top: 20px;
+    letter-spacing: 2px;
+
+}
+.vill-para > button{
+     background-color: #28a745;
+    color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 10px 0 0 0;
+    padding: 20px 40px;
+    border-radius:30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+
+    /* village section ended  */
