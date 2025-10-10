@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(../assets/fonts/apercu-pro/apercu_medium_pro.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(../assets/fonts/futurak/futurak.ttfz);
+}
+html{
+    font-size: 62.5%;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --grey: #1d1d1d;
+  
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   background-color: black;
+   padding: 0 40px;
+   
+}
+.hero-section{
+    background-image: url(../assets/images/hero-section.webp);
+    height: 90vh;
+    background-position: center;
+    background-size:cover ;
+}
+.logo img{
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 20px;
+}
+
+.nav-links > a{
+    justify-content: space-around;
+    margin-right: 20px;
+    font-size: 2rem;
+    
+}
+/* our brand section started */
+
+.our-brand{
+    background-color: black;
+    height: 70vh;
+}
+.our-brand{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    
+    
+}
+.our-brand h1{
+    font-size: 4.8rem;
+    margin-top: 100px;
+    
+}
+.our-brand-or {
+    margin-top: 30px;
+    gap: 20px;
+}
+.our-brand p{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.our-brand-or > .order{
+    
+    display: flex;
+    flex-direction: column;
+}
+.our-brand-or > .order > .brand-img{
+    background-color: white;
+    width: 100%;
+    
+    border-radius: 5px;
+    
+}
+.our-brand-or > .order > button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #1d1d1d;
+    margin: 10px 0 0 0;
+    padding: 10px 40px;
+    border-radius:30px ;
+}
+/* our brand section ended */
+ /* our-brand sec started  */
+
+.fr-head >  h1 {
+    font-size: 5.2rem;
+}
+.franchise > .fr-head > h2{
+    font-size: 4.8rem;
+    margin-top: 10px;
+}
+.franchise > .fr-head > p{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+ /* our-brand sec ended  */
+
+ .isl{
+    margin-top: 30px;
+    gap: 20px;
+ }
+ .isl > .para{
+
+    font-size: 2rem;
+    margin-top: 20px;  
+   
+ }
+.para > button{
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #f0f0f0;
+        margin: 10px 0 0 0;
+        padding: 20px 40px;
+        border-radius:30px ;
+        font-size: 15px;
+    }
+/* frachies sec ended  */
+/* ex frachies 3rd started */
+.ex-fr-head >  h1 {
+    font-size: 5.2rem;
+}
+.ex-fr-head > h2{
+    font-size: 4.8rem;
+    margin-top: 10px;
+}
+.ex-fr-head > p{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+/* row-section of ex franchises */
+.ex-row{
+    margin-top: 20px;
+}
+/* ex frachies 3rd ended */
