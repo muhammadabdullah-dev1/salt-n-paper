@@ -232,3 +232,47 @@ nav{
 
 
     /* village section ended  */
+/* open section started */
+.head-upper{
+    margin-top:50px;
+}
+.head-upper >h1{
+    font-size: 5.2rem;
+}
+.head-upper >h2{
+    font-size: 5.2rem;
+    margin-top: 20px;
+    color: #28A745;
+}
+.row-con{
+    margin-top: 50px;
+   row-gap:100px ;
+    
+
+}
+.rows >img{
+    width: 400px; 
+    
+}
+/* open section ended */
+/* footer started */
+
+.footer{
+    padding-top: 30px;
+    background-color: #0f0f0f;
+}
+.fo-image > img{
+    width: 140px;
+}
+.fo-para > p{
+    font-size: 2rem;
+    margin-top: 10px ;
+}
+.ter-con{
+    margin-top: 1-px;
+}
+
+
+
+
+/* footer ended */
