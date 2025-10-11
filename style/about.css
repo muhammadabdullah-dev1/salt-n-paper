@@ -1,0 +1,22 @@
+nav{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   background-color: black;
+   padding: 0 40px;
+   
+}
+.logo img{
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 20px;
+}
+
+.nav-links > a{
+    justify-content: space-around;
+    margin-right: 20px;
+    font-size: 2rem;
+    
+}
