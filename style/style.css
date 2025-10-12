@@ -27,6 +27,7 @@ nav{
    justify-content:space-between;
    background-color: black;
    padding: 0 40px;
+   border-bottom: #1d1d1d;
    
 }
 .hero-section{
@@ -38,8 +39,7 @@ nav{
 .logo img{
     width: 200px;
     background-size: cover;
-    background-position: center;
-    
+    background-position: center; 
     padding: 20px;
 }
 
