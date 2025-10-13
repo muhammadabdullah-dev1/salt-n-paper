@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: futurak;
-    src: url(../assets/fonts/futurak/futurak.ttfz);
+    src: url(../assets/fonts/futurak/futurak.ttf);
 }
 html{
     font-size: 62.5%;
@@ -20,6 +20,11 @@ html{
   --red: #ed1c24;
   --grey: #1d1d1d;
   
+}
+.futu{
+    font-family: futurak;
+    font-size: 5.2rem;
+    font-weight: lighter;
 }
 nav{
    display: flex;
