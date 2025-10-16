@@ -57,6 +57,7 @@ nav{
     text-align: center;
     margin: 0px 0px 15px;
 }
+
 .introduction > h1{
     margin: 10px 0px;
     font-size: 4rem;
@@ -68,3 +69,27 @@ nav{
     line-height:30px ;
     color: #d1cfcf;
 }
+.book{
+   display: flex;
+  justify-content: center;  
+  align-items: center;  
+
+   
+}
+.book-main{
+gap: 30px;
+
+margin-top: 50px;
+width: 90%;
+height: 575px;
+
+
+}
+.books-child {
+border: 2px solid var(--grey);
+
+}
+ .books-child > img{
+    width: 90%;
+}
+ 
