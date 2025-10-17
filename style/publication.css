@@ -92,4 +92,28 @@ border: 2px solid var(--grey);
  .books-child > img{
     width: 90%;
 }
- 
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.text > h1{
+    font-size: 3.2rem;
+}
+.text > .location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 40px;
+}
+.location > h1{
+    margin: 10px 0px;
+    font-size: 1.6rem;
+}
+.location > p{
+    margin: 10px 0px;
+    font-size: 1.4rem;
+}
